@@ -3,88 +3,88 @@ import { Question } from '../types';
 export const questions: Question[] = [
   {
     id: 1,
-    text: "How is your shrimp farm doing? Everything is running smoothly, right?",
+    text: "Gimana nih, kabar tambak udangmu? Semuanya lancar, kan?",
     answers: [
       {
-        text: "(Compared to other farms, it's still pretty safe!)",
+        text: "(Dibandingkan tambak lain, sih masih aman-aman aja, ya!)",
         scores: { existing: 2 }
       },
       {
-        text: "(I'm a bit worried about the spread of disease and temperature changes that could affect it.)",
+        text: "(Agak khawatir sama penyebaran penyakit dan perubahan suhu yang bisa pengaruh juga, sih.)",
         scores: { fanatic: 2, shrimp: 1 }
       },
       {
-        text: "(I take care of it the usual way; as for the harvest, I leave it to God!)",
+        text: "(Aku rawat dengan cara yang biasa, hasil panen, ya, serahkan ke Tuhan!)",
         scores: { ordinary: 2 }
       },
       {
-        text: "(From reports and business calculations, everything is still on plan!)",
+        text: "(Dari laporan dan hitungan bisnis, semua masih sesuai plan, kok!)",
         scores: { trader: 2, 'hi-tech': 1 }
       }
     ]
   },
   {
     id: 2,
-    text: "Have you given your best for the shrimp in your farm?",
+    text: "Kira-kira kamu udah kasih yang terbaik belum buat si udang-udang di tambakmu?",
     answers: [
       {
-        text: "(I have planned the best operations and technology for my farm, so everything is measurable.)",
+        text: "(Aku udah planning operasional dan teknologi terbaik buat tambakku, jadi semuanya terukur.)",
         scores: { trader: 2, 'hi-tech': 1 }
       },
       {
-        text: "(If I follow the pattern from previous harvests, it should be safe.)",
+        text: "(Kalau ngikutin pola dari waktu panen sebelumnya, sih, harusnya aman.)",
         scores: { ordinary: 2 }
       },
       {
-        text: "(Based on discussions in the community, this is the best for the shrimp and farm conditions in this area.)",
+        text: "(Berdasarkan obrolan di komunitas, ini yang terbaik buat kondisi udang dan tambak di area sini.)",
         scores: { existing: 2 }
       },
       {
-        text: "(Support from chemistry, physics, and treatment has already followed expert recommendations.)",
+        text: "(Support dari kimia, fisika, dan perlakuan udah sesuai rekomendasi ahli.)",
         scores: { fanatic: 2, shrimp: 1 }
       }
     ]
   },
   {
     id: 3,
-    text: "What motivates you to farm shrimp? Is there a special story?",
+    text: "Apa sih yang bikin kamu semangat beternak udang? Ada cerita khusus?",
     answers: [
       {
-        text: "(I have planned the best operations and technology for my farm, so everything is measurable.)",
+        text: "(Aku udah planning operasional dan teknologi terbaik buat tambakku, jadi semuanya terukur.)",
         scores: { trader: 2, 'hi-tech': 1 }
       },
       {
-        text: "(This is a family business, so I just continue it.)",
+        text: "(Ini bisnis keluarga, jadi aku lanjutin aja.)",
         scores: { ordinary: 2, shrimp: 1 }
       },
       {
-        text: "(I want to become an aquaculture expert, not just in theory but also in practical fieldwork.)",
+        text: "(Aku ingin jadi ahli budidaya, yang nggak cuma teori tapi juga praktek langsung di lapangan.)",
         scores: { fanatic: 2, 'hi-tech': 1 }
       },
       {
-        text: "(I follow my friends and neighbors because I also live in a coastal area!)",
+        text: "(Ikut-ikutan teman dan tetangga, soalnya tinggal di daerah pesisir juga!)",
         scores: { existing: 2, shrimp: 1 }
       }
     ]
   },
   {
     id: 4,
-    text: "Are you a member of a fish farmer community? It seems fun to have a place to share with fellow farmers!",
+    text: "Kamu gabung di komunitas petambak juga nggak? Seru kayaknya kalau ada tempat sharing bareng sesama petambak!",
     answers: [
       {
-        text: "(Wow, coincidentally, I'm even a committee member of the community!)",
+        text: "(Wah, kebetulan banget, aku malah pengurus komunitasnya!)",
         scores: { existing: 2 }
       },
       {
-        text: "((Yes! So we can share prices and update national market conditions.)",
+        text: "(Iya, dong! Biar bisa share harga dan update kondisi pasar nasional.)",
         scores: { trader: 2, fanatic: 1 }
       },
       {
-        text: "(No, I just continue the family business.)",
+        text: "(Nggak, aku cuma nerusin bisnis keluarga aja.)",
         scores: { ordinary: 2, shrimp: 1 }
       },
       {
-        text: "(I just join online because I already use technology for monitoring, so I don't have to visit often.)",
+        text: "(Ikutan online aja, soalnya udah pakai teknologi buat pengawasan, jadi nggak harus sering mampir.)",
         scores: { 'hi-tech': 2, fanatic: 1 }
       }
     ]
