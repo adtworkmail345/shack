@@ -10,8 +10,12 @@ interface ResultPageProps {
 const ResultPage: React.FC<ResultPageProps> = ({ result, onRestart }) => {
   return (
     <div className="min-h-screen bg-blue-50 flex flex-col items-center justify-center p-4">
+      {/* Header */}
+      {/* <header className="w-full absolute top-0">
+        <img src="/image/footer.png" className="w-full" alt="Header" />
+      </header> */}
       <div className="bg-white rounded-lg shadow-lg p-6 max-w-md w-full text-center">
-        <img src={result.imageUrl} alt={result.title} className="w-32 h-32 mx-auto mb-4" />
+      <img src={result.imageUrl} alt={result.title} className="w-50 h-50 mx-auto mb-4" />
         <h2 className="text-3xl font-bold text-blue-600 mb-2">{result.title}</h2>
         <p className="text-gray-600 mb-6">{result.description}</p>
         <button
@@ -25,6 +29,9 @@ const ResultPage: React.FC<ResultPageProps> = ({ result, onRestart }) => {
           Unduh & Bagikan
         </button>
       </div>
+      <footer className="w-full absolute bottom-0">
+        <img src="/image/footer.png" className="w-full" alt="Footer" />
+      </footer>
     </div>
   );
 };

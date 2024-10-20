@@ -4,37 +4,37 @@ export const results: Result[] = [
   {
     type: 'existing',
     title: 'Petambak Eksis',
-    description: 'Kamu adalah petambak yang selalu up-to-date dengan tren terbaru dalam budidaya udang.',
+    description: 'Solidaritas sepertinya salah satu dari preferensi kamu dalam hidup, dari komunitas, oleh komunitas, untuk komunitas, kamu percaya dengan kekuatan gotong royong dan diskusi kelompok, Petambak Eksis cocok dijadikan sebagai julukanmu',
     imageUrl: '/image/petambak_eksis.png'
   },
   {
     type: 'fanatic',
     title: 'Pakar Udang',
-    description: 'Kamu memiliki pengetahuan mendalam tentang budidaya udang dan selalu mencari cara untuk meningkatkan hasil panen.',
+    description: 'Antusiasmemu terhadap ilmu terkait udang, serta situasi budidaya terkini melebihi orang lain di sekitarmu, kita nobatkan kamu sebagai pakar udang yang memiliki konsistensi dalam mendalamai segala perudangan.',
     imageUrl: '/image/pakar_udang.png'
   },
   {
     type: 'shrimp',
     title: 'Juragan Tambak',
-    description: 'Kamu adalah pemilik tambak yang sukses dan memiliki pengalaman luas dalam industri udang.',
+    description: 'Bagimu, Juragan Tambak, bisnis udang adalah salah satu dari banyaknya opsi bisnis yang menarik. Menimbang kemungkinan profit dan loss sudah menjadi kegiatan utama dalam berbisnis.',
     imageUrl: '/image/juragan_petambak.png'
   },
   {
     type: 'ordinary',
     title: 'Petambak Biasa',
-    description: 'Kamu menjalankan tambak udang dengan cara tradisional dan mengandalkan pengalaman yang sudah teruji.',
+    description: 'Budidaya udang diwariskan di keluarga, caranya seperti yang diberitahu bapak, teknologi dan ilmu dari ahli mana mempan, yang biasa memang paling nyaman. Toh kamu ngga papa jadi petambak biasa aja.',
     imageUrl: '/image/petambak_biasa.png'
   },
   {
     type: 'trader',
-    title: 'Juragan Tambak',
-    description: 'Bagimu, juragan tambak, bisnis udang adalah salah satu dari banyaknya opsi bisnis yang menarik. Menimbang kemungkinan profit dan loss sudah menjadi kegiatan utama dalam berbisnis.',
+    title: 'Petambak Modern',
+    description: 'Kalau ngomongin modernisasi budidaya, kamu yang terdepan, dan yang bisa menjawab semua pertanyaan tentang, ada update apa lagi nih untuk teknologi perudangan?Congrats kamu Petambak Hi Tech!',
     imageUrl: '/image/juragan_petambak.png'
   },
   {
     type: 'hi-tech',
     title: 'Kyaknya Km Udang',
-    description: 'Kamu menggunakan teknologi terbaru untuk mengoptimalkan produksi udang di tambakmu.',
+    description: 'Pssst... kita diem-diem aja ya, tapi, kayanya kamu udang.',
     imageUrl: '/image/kyaknya_km_udang.png'
   }
 ];
